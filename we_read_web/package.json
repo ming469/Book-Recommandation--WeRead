@@ -1,0 +1,60 @@
+{
+  "name": "we_read_web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "set npm_config_cache=./.npm-cache && vue-cli-service serve --port 8080",
+    "start": "set npm_config_cache=./.npm-cache && vue-cli-service serve --port 8080",
+    "dev": "set npm_config_cache=./.npm-cache && vue-cli-service serve --port 8080",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ansi-regex": "^6.2.2",
+    "axios": "^1.8.2",
+    "core-js": "^3.41.0",
+    "date-fns": "^4.1.0",
+    "element-plus": "^2.9.6",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.1",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "strip-ansi": "^7.1.2",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "mockjs": "^1.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

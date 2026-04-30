@@ -1,0 +1,33 @@
+/* 
+ * 微读平台 - 图标字体样式
+ * 
+ * 将此文件保存为 src/assets/styles/iconfont.css
+ * 并在 main.js 中导入: import '@/assets/styles/iconfont.css'
+ */
+
+ @font-face {
+    font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_2553510_1f3wvk6q08i.woff2') format('woff2'),
+         url('//at.alicdn.com/t/font_2553510_1f3wvk6q08i.woff') format('woff'),
+         url('//at.alicdn.com/t/font_2553510_1f3wvk6q08i.ttf') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-wechat:before {
+    content: "\e6b3";
+  }
+  
+  .icon-qq:before {
+    content: "\e6b2";
+  }
+  
+  .icon-weibo:before {
+    content: "\e6b4";
+  }

@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "WeReadApplication (Backend)",
+            "request": "launch",
+            "mainClass": "com.team.weread.WeReadApplication",
+            "projectName": "we_read_web",
+            "cwd": "${workspaceFolder}/we_read_web_V2.2",
+            "console": "internalConsole"
+        }
+    ]
+}
